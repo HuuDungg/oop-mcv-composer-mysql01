@@ -1,0 +1,20 @@
+{
+    "name": "huudung/cars-purchase",
+    "description": "try to become better",
+    "type": "library",
+    "authors": [
+        {
+            "name": "huudung"
+        }
+    ],
+    "require": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "./"
+        }
+    }
+
+
+}

@@ -1,0 +1,342 @@
+body {
+    background-color: #0E0E12;
+}
+
+.logoFirst > img {
+    width: 150px;
+    position: relative;
+    bottom: 415px;
+}
+
+li {
+    display: inline-block;
+    text-decoration: none;
+    margin: 0px 10px;
+    font-size: 25px;
+}
+
+
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    height: 880px;
+}
+
+.custom-nav img {
+    width: 100%;
+}
+
+
+.textBanner {
+    position: relative;
+    bottom: 20px;
+    left: 30px;
+}
+
+.textBanner > h1 {
+    color: white;
+}
+
+.imgAslide img {
+    overflow: hidden;
+    width: 350px;
+    height: 350px;
+    margin: 10px 20px;
+}
+
+.imgAslide>div{
+    display: inline-block;
+}
+
+.textAs{
+    position: relative;
+    bottom: 60px;
+    left: 40px;
+}
+
+.textAs h2{
+    color: white;
+}
+
+.aslide {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.textAslide > h1 {
+    text-align: center;
+    color: white;
+}
+
+.banner02 > img {
+    width: 100%;
+    margin: 30px 0px;
+}
+
+.cartMid{
+    width: 400px;
+    height: 600px;
+    display: inline-block;
+    margin: 10px 30px;
+}
+
+.imgMid{
+    height: 600px;
+    width: 400px;
+
+}
+
+.imgMid>img{
+    overflow: hidden;
+    width: 436px;
+    height: 648px;
+    margin: 10px 20px;
+}
+
+.cartChildren{
+    height: 600px;
+    width: 400px;
+}
+
+.titleMid{
+    position: relative;
+    top: 100px;
+    left: 30px;
+    width: 400px;
+}
+
+.descriptionMid{
+    position: relative;
+    bottom: 100px;
+    left: 60px;
+    width: 400px;
+}
+
+.midH1{
+    position: relative;
+    left: 50px;
+    width: 400px;
+}
+
+.textWhite{
+    color: white;
+    width: 400px;
+}
+.secondAslide{
+    margin: 30px 0px;
+}
+.secondImg{
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.secondImg>img{
+    height: 700px;
+    overflow: hidden;
+    width: 100%;
+    margin: 30px 0px;
+}
+
+.secondText{
+    position: relative;
+    left: 100px;
+}
+
+.cartContent{
+    width: 400px;
+    height: 600px;
+    display: inline-block;
+    margin: 10px 30px;
+    position: relative;
+    left: 50px;
+}
+
+.content>img{
+    overflow: hidden;
+    width: 400px;
+    height: 600px;
+    margin: 10px 20px;
+}
+
+.cartTitle {
+    position: relative;
+    margin-left: 15px;
+}
+.cartText{
+    position: relative;
+    margin-left: 15px;
+}
+
+
+.footer{
+    
+    margin: 30px 60px;
+
+}
+
+.footerFirst{
+    margin-bottom: 30px;
+}
+
+i{
+    color: white;
+}
+
+img{
+    border: 1px black solid;
+    border-radius: 5px;
+}
+
+button{
+    background-color: rgba(0, 0, 0, 0.3); /* Màu đen với độ trong suốt 50% */
+            border: 1px white solid ;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 5px;
+}
+
+.desText{
+    margin-bottom: 30px;
+}
+
+.carousel-indicators{
+    position: absolute;
+    top: 20px;
+    left: 110px;
+}
+
+.indiSpec{
+    position: relative;
+    bottom: 40000px;
+}
+
+/* css for mobile */
+@media only screen and (max-width: 46.1875em){
+    .menu{
+        display: none;
+    }
+    .contact{
+        display: none;
+    }
+    .logoFirst{
+        width: 30%;
+        position: relative;
+        bottom: 0px;
+        right:110px;
+    }
+
+    .navbar-toggler{
+        position: relative;
+        left: 220px;
+    }
+    .custom-nav img{
+        overflow: hidden;
+        width: 614px;
+        height: 542px;
+    }
+
+    .custom-aside{
+        position: relative;
+        left: 60px;
+    }
+    .cartContent{
+        position: relative;
+        left: 55px;
+    }
+
+    .secondImg>img{
+        width: 100%;
+    }
+    .secondAslide{
+        position: relative;
+        right: 8px;
+    }
+
+    .imgAslide{
+        position: relative;
+        left: 40px;
+    }
+
+    .textAslide{
+        position: relative;
+        left: 20px;
+    }
+    .banner02{
+        position: relative;
+        left: 20px;
+    }
+
+    .midH1{
+        position: relative;
+        left: 80px;
+    }
+
+    .cartMid{
+        position: relative;
+        left: 80px;
+    }
+
+    .cartMid:nth-last-child(-n+2){
+        display: none;
+    }
+
+    .cartContent:nth-last-child(-n+2){
+        display: none
+    }
+
+    .new-nav{
+        background-size: cover;
+        background-position: center;
+        overflow: hidden;
+        width: 670px;
+        height: 400px;
+    }
+}
+
+/* css for table */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .menu {
+        display: none;
+    }
+    .contact {
+        display: none;
+    }
+    .logoFirst {
+        width: 30%;
+        position: relative;
+        bottom: 0px;
+    }
+    .custom-nav img {
+        overflow: hidden;
+        width: 1014px;
+        height: 542px;
+    }
+    .cartA{
+        width: 880px;
+        position: relative;
+        left: 100px;
+    }
+    .cartA img{
+        overflow: hidden;
+        width: 800px;
+        height: 800px;
+    }
+
+    .cartMid:last-child{
+        display: none;
+    }
+
+    .cartContent:last-child{
+        display: none;
+    }
+
+}

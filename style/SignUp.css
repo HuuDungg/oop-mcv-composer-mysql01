@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(3, 4, 13);
+}
+.container{
+    border: 1px solid white;
+    border-radius: 8px;
+    background-color: gray;
+    position: relative;
+    top: 200px;
+}
+
+.form-label{
+    color: white;
+}
+
+h2{
+    color: white;
+}
